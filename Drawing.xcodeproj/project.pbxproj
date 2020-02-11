@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B34332123EC3E7300C6BD73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34332023EC3E7300C6BD73 /* AppDelegate.m */; };
+		3B34332423EC3E7300C6BD73 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34332323EC3E7300C6BD73 /* SceneDelegate.m */; };
+		3B34332723EC3E7300C6BD73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34332623EC3E7300C6BD73 /* ViewController.m */; };
+		3B34332A23EC3E7300C6BD73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B34332823EC3E7300C6BD73 /* Main.storyboard */; };
+		3B34332C23EC3E7800C6BD73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B34332B23EC3E7800C6BD73 /* Assets.xcassets */; };
+		3B34332F23EC3E7800C6BD73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B34332D23EC3E7800C6BD73 /* LaunchScreen.storyboard */; };
+		3B34333223EC3E7800C6BD73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34333123EC3E7800C6BD73 /* main.m */; };
+		3B34333B23EC410B00C6BD73 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34333A23EC410B00C6BD73 /* Vertex.m */; };
+		3B34333E23EC415E00C6BD73 /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34333D23EC415E00C6BD73 /* Dot.m */; };
+		3B34334123EC446200C6BD73 /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34334023EC446200C6BD73 /* Stroke.m */; };
+		3B34334423EC4BB800C6BD73 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34334323EC4BB800C6BD73 /* CanvasView.m */; };
+		3B34334723EC4C2100C6BD73 /* CanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34334623EC4C2100C6BD73 /* CanvasViewGenerator.m */; };
+		3B34334A23EC4C8200C6BD73 /* PaperCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34334923EC4C8200C6BD73 /* PaperCanvasView.m */; };
+		3B34334D23EC4C9200C6BD73 /* ClothCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34334C23EC4C9200C6BD73 /* ClothCanvasView.m */; };
+		3B34335023EC4D6A00C6BD73 /* PaperCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34334F23EC4D6A00C6BD73 /* PaperCanvasViewGenerator.m */; };
+		3B34335323EC4D7C00C6BD73 /* ClothCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34335223EC4D7C00C6BD73 /* ClothCanvasViewGenerator.m */; };
+		3B34335623EC574B00C6BD73 /* Scribble.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34335523EC574B00C6BD73 /* Scribble.m */; };
+		3B34335A23ED07AC00C6BD73 /* MarkRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34335923ED07AC00C6BD73 /* MarkRender.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B34331C23EC3E7300C6BD73 /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B34331F23EC3E7300C6BD73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B34332023EC3E7300C6BD73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B34332223EC3E7300C6BD73 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3B34332323EC3E7300C6BD73 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3B34332523EC3E7300C6BD73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B34332623EC3E7300C6BD73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B34332923EC3E7300C6BD73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B34332B23EC3E7800C6BD73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B34332E23EC3E7800C6BD73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B34333023EC3E7800C6BD73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B34333123EC3E7800C6BD73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B34333823EC3E9C00C6BD73 /* Mark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
+		3B34333923EC410B00C6BD73 /* Vertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		3B34333A23EC410B00C6BD73 /* Vertex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		3B34333C23EC415E00C6BD73 /* Dot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
+		3B34333D23EC415E00C6BD73 /* Dot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
+		3B34333F23EC446200C6BD73 /* Stroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
+		3B34334023EC446200C6BD73 /* Stroke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
+		3B34334223EC4BB800C6BD73 /* CanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		3B34334323EC4BB800C6BD73 /* CanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		3B34334523EC4C2100C6BD73 /* CanvasViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasViewGenerator.h; sourceTree = "<group>"; };
+		3B34334623EC4C2100C6BD73 /* CanvasViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasViewGenerator.m; sourceTree = "<group>"; };
+		3B34334823EC4C8200C6BD73 /* PaperCanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaperCanvasView.h; sourceTree = "<group>"; };
+		3B34334923EC4C8200C6BD73 /* PaperCanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasView.m; sourceTree = "<group>"; };
+		3B34334B23EC4C9200C6BD73 /* ClothCanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClothCanvasView.h; sourceTree = "<group>"; };
+		3B34334C23EC4C9200C6BD73 /* ClothCanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasView.m; sourceTree = "<group>"; };
+		3B34334E23EC4D6A00C6BD73 /* PaperCanvasViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaperCanvasViewGenerator.h; sourceTree = "<group>"; };
+		3B34334F23EC4D6A00C6BD73 /* PaperCanvasViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasViewGenerator.m; sourceTree = "<group>"; };
+		3B34335123EC4D7C00C6BD73 /* ClothCanvasViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClothCanvasViewGenerator.h; sourceTree = "<group>"; };
+		3B34335223EC4D7C00C6BD73 /* ClothCanvasViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasViewGenerator.m; sourceTree = "<group>"; };
+		3B34335423EC574B00C6BD73 /* Scribble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scribble.h; sourceTree = "<group>"; };
+		3B34335523EC574B00C6BD73 /* Scribble.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scribble.m; sourceTree = "<group>"; };
+		3B34335723ED072000C6BD73 /* MarkVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkVisitor.h; sourceTree = "<group>"; };
+		3B34335823ED07AC00C6BD73 /* MarkRender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkRender.h; sourceTree = "<group>"; };
+		3B34335923ED07AC00C6BD73 /* MarkRender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkRender.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B34331923EC3E7300C6BD73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B34331323EC3E7300C6BD73 = {
+			isa = PBXGroup;
+			children = (
+				3B34331E23EC3E7300C6BD73 /* Drawing */,
+				3B34331D23EC3E7300C6BD73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B34331D23EC3E7300C6BD73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B34331C23EC3E7300C6BD73 /* Drawing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B34331E23EC3E7300C6BD73 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				3B34331F23EC3E7300C6BD73 /* AppDelegate.h */,
+				3B34332023EC3E7300C6BD73 /* AppDelegate.m */,
+				3B34332223EC3E7300C6BD73 /* SceneDelegate.h */,
+				3B34332323EC3E7300C6BD73 /* SceneDelegate.m */,
+				3B34332523EC3E7300C6BD73 /* ViewController.h */,
+				3B34332623EC3E7300C6BD73 /* ViewController.m */,
+				3B34333823EC3E9C00C6BD73 /* Mark.h */,
+				3B34333923EC410B00C6BD73 /* Vertex.h */,
+				3B34333A23EC410B00C6BD73 /* Vertex.m */,
+				3B34333C23EC415E00C6BD73 /* Dot.h */,
+				3B34333D23EC415E00C6BD73 /* Dot.m */,
+				3B34333F23EC446200C6BD73 /* Stroke.h */,
+				3B34334023EC446200C6BD73 /* Stroke.m */,
+				3B34334223EC4BB800C6BD73 /* CanvasView.h */,
+				3B34334323EC4BB800C6BD73 /* CanvasView.m */,
+				3B34334823EC4C8200C6BD73 /* PaperCanvasView.h */,
+				3B34334923EC4C8200C6BD73 /* PaperCanvasView.m */,
+				3B34334B23EC4C9200C6BD73 /* ClothCanvasView.h */,
+				3B34334C23EC4C9200C6BD73 /* ClothCanvasView.m */,
+				3B34334523EC4C2100C6BD73 /* CanvasViewGenerator.h */,
+				3B34334623EC4C2100C6BD73 /* CanvasViewGenerator.m */,
+				3B34334E23EC4D6A00C6BD73 /* PaperCanvasViewGenerator.h */,
+				3B34334F23EC4D6A00C6BD73 /* PaperCanvasViewGenerator.m */,
+				3B34335123EC4D7C00C6BD73 /* ClothCanvasViewGenerator.h */,
+				3B34335223EC4D7C00C6BD73 /* ClothCanvasViewGenerator.m */,
+				3B34335423EC574B00C6BD73 /* Scribble.h */,
+				3B34335523EC574B00C6BD73 /* Scribble.m */,
+				3B34335723ED072000C6BD73 /* MarkVisitor.h */,
+				3B34335823ED07AC00C6BD73 /* MarkRender.h */,
+				3B34335923ED07AC00C6BD73 /* MarkRender.m */,
+				3B34332823EC3E7300C6BD73 /* Main.storyboard */,
+				3B34332B23EC3E7800C6BD73 /* Assets.xcassets */,
+				3B34332D23EC3E7800C6BD73 /* LaunchScreen.storyboard */,
+				3B34333023EC3E7800C6BD73 /* Info.plist */,
+				3B34333123EC3E7800C6BD73 /* main.m */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B34331B23EC3E7300C6BD73 /* Drawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B34333523EC3E7800C6BD73 /* Build configuration list for PBXNativeTarget "Drawing" */;
+			buildPhases = (
+				3B34331823EC3E7300C6BD73 /* Sources */,
+				3B34331923EC3E7300C6BD73 /* Frameworks */,
+				3B34331A23EC3E7300C6BD73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drawing;
+			productName = Drawing;
+			productReference = 3B34331C23EC3E7300C6BD73 /* Drawing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B34331423EC3E7300C6BD73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = pan;
+				TargetAttributes = {
+					3B34331B23EC3E7300C6BD73 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3B34331723EC3E7300C6BD73 /* Build configuration list for PBXProject "Drawing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B34331323EC3E7300C6BD73;
+			productRefGroup = 3B34331D23EC3E7300C6BD73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B34331B23EC3E7300C6BD73 /* Drawing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B34331A23EC3E7300C6BD73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B34332F23EC3E7800C6BD73 /* LaunchScreen.storyboard in Resources */,
+				3B34332C23EC3E7800C6BD73 /* Assets.xcassets in Resources */,
+				3B34332A23EC3E7300C6BD73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B34331823EC3E7300C6BD73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B34335A23ED07AC00C6BD73 /* MarkRender.m in Sources */,
+				3B34332723EC3E7300C6BD73 /* ViewController.m in Sources */,
+				3B34335323EC4D7C00C6BD73 /* ClothCanvasViewGenerator.m in Sources */,
+				3B34334723EC4C2100C6BD73 /* CanvasViewGenerator.m in Sources */,
+				3B34332123EC3E7300C6BD73 /* AppDelegate.m in Sources */,
+				3B34335023EC4D6A00C6BD73 /* PaperCanvasViewGenerator.m in Sources */,
+				3B34333223EC3E7800C6BD73 /* main.m in Sources */,
+				3B34333E23EC415E00C6BD73 /* Dot.m in Sources */,
+				3B34334A23EC4C8200C6BD73 /* PaperCanvasView.m in Sources */,
+				3B34333B23EC410B00C6BD73 /* Vertex.m in Sources */,
+				3B34335623EC574B00C6BD73 /* Scribble.m in Sources */,
+				3B34334123EC446200C6BD73 /* Stroke.m in Sources */,
+				3B34334D23EC4C9200C6BD73 /* ClothCanvasView.m in Sources */,
+				3B34334423EC4BB800C6BD73 /* CanvasView.m in Sources */,
+				3B34332423EC3E7300C6BD73 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B34332823EC3E7300C6BD73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B34332923EC3E7300C6BD73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B34332D23EC3E7800C6BD73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B34332E23EC3E7800C6BD73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B34333323EC3E7800C6BD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B34333423EC3E7800C6BD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B34333623EC3E7800C6BD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Drawing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pan.demo.Drawing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B34333723EC3E7800C6BD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Drawing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pan.demo.Drawing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B34331723EC3E7300C6BD73 /* Build configuration list for PBXProject "Drawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B34333323EC3E7800C6BD73 /* Debug */,
+				3B34333423EC3E7800C6BD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B34333523EC3E7800C6BD73 /* Build configuration list for PBXNativeTarget "Drawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B34333623EC3E7800C6BD73 /* Debug */,
+				3B34333723EC3E7800C6BD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B34331423EC3E7300C6BD73 /* Project object */;
+}
